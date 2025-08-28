@@ -1,7 +1,7 @@
 
 # 1. Generate the square pattern (based on numbers) with sides equal to the given number input: x
 
-# Use the following examples for references
+# Use the following examples for  references
 # Ex:1 - Input number: 4
 # 	1 2 3 4
 # 	2     3
@@ -9,7 +9,7 @@
 # 	4 3 2 1
 
     
-num = int(input("Enter a numbers:  "))
+num = int(input("Enter a number:  "))
 for i in range(1, num+1):
      for j in range(1, num+1):
          if i ==1:
