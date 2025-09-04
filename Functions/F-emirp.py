@@ -23,6 +23,7 @@ def EmirpNum(ll,ul):
     for n in range(ll,ul+1):
         r= rev(n)
         if isPrime(n) and r != n and isPrime(r):
+            
             print(n)
 
 EmirpNum(1,30)       
