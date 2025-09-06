@@ -8,4 +8,4 @@ for char in s:
     else:
         freq[char] =1
 for char in freq:
-    print(freq[char])
+    print(char, freq[char])
