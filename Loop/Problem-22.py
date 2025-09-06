@@ -1,4 +1,4 @@
-# wap to print all digit present in string
+# wap to count how many digit present in string
 
 s = input('Enter a string :')
 count = 0
