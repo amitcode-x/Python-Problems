@@ -1,4 +1,4 @@
-# Wap to print char from index 2 and 6
+# Wap to print char only index 2 and 6
 
         
 s = input('Enter a string :')
