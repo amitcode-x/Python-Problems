@@ -7,4 +7,4 @@ def display():
     a+=20
     print(a)
 display()
-print('in main space',a)// error
+# print('in main space',a)  NameError: name 'a' is not 
