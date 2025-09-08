@@ -1,0 +1,12 @@
+# Nested functions
+
+ 
+
+def outer():
+    print('OUTER started')
+    def inner():
+        print('inner started')
+        print('inner ended')
+    inner()
+    print('OUTER ended')
+outer()
