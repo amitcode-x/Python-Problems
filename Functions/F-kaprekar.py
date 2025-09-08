@@ -17,5 +17,5 @@ def KaprekarNum(LL, UL):
             print(n)
 
 
-# Test
+
 KaprekarNum(1, 200)
