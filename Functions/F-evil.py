@@ -13,5 +13,5 @@ def EvilNum(LL, UL):
             print(n)
 
 
-# Test
+
 EvilNum(1, 50)
