@@ -17,5 +17,5 @@ def TriangularNum(LL, UL):
             print(n)
 
 
-# Test
+
 TriangularNum(1, 100)
