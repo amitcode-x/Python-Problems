@@ -18,5 +18,4 @@ def MagicNum(LL, UL):
         if isMagic(n):
             print(n)
 
-# Test
 MagicNum(1, 200)
