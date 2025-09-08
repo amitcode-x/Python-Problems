@@ -1,3 +1,5 @@
+
+# wap to print duck numbers in a given range
 def isDuck(n):
     s = str(n)
  
