@@ -5,3 +5,6 @@ def rev(s):
         return s
     return rev(s[1:])+ s[0]
 print(rev('amit'))
+
+
+# 
