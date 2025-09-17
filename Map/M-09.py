@@ -5,7 +5,7 @@
 
 def ip(l):
     return int(l)
-print(list(map(ip,['11','22','30','13'])))
+print(list(map(ip,['11','22','30','13'])));M-09
 
 
 
