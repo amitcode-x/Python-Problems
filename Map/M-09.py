@@ -1,5 +1,5 @@
 # i/p = ['11','22','30','13']
-# o/p = [11,22,30,13] using normal function
+# o/p = [11,22,30,13] using normal  
 
 
 
