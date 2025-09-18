@@ -1,3 +1,4 @@
+#  creatin a class and objects
 class Bank:
     # ---- Class Variables ----
     bank_name = "State Bank of India"
