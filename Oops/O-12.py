@@ -8,7 +8,7 @@ class Bank:
         self.balance=b
     def Customer_details(self):
         print('customer name :',self.cname)
-        print('customer acount :',self.acount)
+        print('customer  :',self.acount)
         print('customer name :',self.balance)
     def Withdraw(self):
         amount= int(input('Enter the amount :'))
