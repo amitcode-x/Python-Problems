@@ -9,7 +9,7 @@ class Bank:
     def Customer_details(self):
         print('customer name :',self.cname)
         print('customer acount no :',self.acount)
-        print('customer Balance :',self.balance)
+        print('customer  :',self.balance)
     def Withdraw(self):
         amount= int(input('Enter the amount :'))
         if amount <= self.balance:
