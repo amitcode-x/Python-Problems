@@ -16,7 +16,7 @@ class Bank:
             print('Withdraw is successful')
         else:
             print('Insufficient balance')
-        print('Available balance is ',self.balance)
+        print('Available balance is  ',self.balance)
     def Deposite(self):
         amount=int(input('Enter the amount :'))
         self.balance +=amount
