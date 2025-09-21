@@ -2,7 +2,7 @@
 # create a class for specific properties
 
 
-  
+ 
 
 class A:
     def __init__(self):
