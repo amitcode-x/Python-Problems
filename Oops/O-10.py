@@ -9,4 +9,4 @@ class A:
         print('inside __init__')
 oa=A()
 ob = A()
-oc = A()        
+oc = A()  
