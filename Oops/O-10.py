@@ -1,5 +1,5 @@
 
-# create a class for specific properties
+# create a class for  specific properties
 
 
 
