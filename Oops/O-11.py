@@ -2,7 +2,7 @@
 class Bank:
     bank_name = 'sbi'
     bank_branch = 'marathahli'
-    bank_roi =  5
+    bank_roi = 5
     def __init__(self,cn,ac,b):
         print(self)
         self.cname= cn
