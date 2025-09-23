@@ -8,7 +8,7 @@ class Bank:
 
 amit=Bank()
 sumit=Bank()
-#Object method sirf  object se call hota hai class se nhi
+#Object method sirf object se call hota hai class se nhi
 Bank.modify_roi()
 print(sumit.bank_roi)
 print(amit.bank_roi)
