@@ -4,7 +4,7 @@ def outer(fun):
         a = fun(s)
         print(f"square is {a}")
     return inner
-#hai= outer(hai)
+#hai=outer(hai)
 @outer
 def hai(s):
     return s*s
