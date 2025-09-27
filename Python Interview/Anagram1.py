@@ -24,3 +24,16 @@ def isna(s1,s2):
     else:
         print('not')
 isna('amit','tima')
+
+# without functions 
+s1 = input('Enter s1 string:')
+s2 = input('Enter s2 string:')
+if len(s1) != len(s2):
+    print('not anagram')
+else:
+    for ch in s1:
+        if s1.count(ch) != s2.count(ch):
+            print('not anagram')
+    else:
+        print('anagram')
+      
