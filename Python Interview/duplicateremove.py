@@ -12,3 +12,10 @@ print(d)
 s = input('Enter a string:')
 r = ''.join(set(s))
 print(r)  
+
+# Using dict.fromkeys()
+
+s = input('Enter a string:')
+r = ''.join(dict.fromkeys(s))
+print(r)
+
