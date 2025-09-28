@@ -19,3 +19,13 @@ s = input('Enter a string:')
 r = ''.join(dict.fromkeys(s))
 print(r)
 
+# Using list
+
+
+s = input('Enter a string:')
+d= []
+for i in s:
+    if i not in d:
+        d.append(i)
+        
+print(''.join(d))
