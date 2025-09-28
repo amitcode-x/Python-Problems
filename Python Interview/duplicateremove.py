@@ -7,3 +7,8 @@ for i in s:
         d +=i
         
 print(d)
+
+# Using set()
+s = input('Enter a string:')
+r = ''.join(set(s))
+print(r)  
