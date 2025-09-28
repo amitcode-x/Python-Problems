@@ -1,0 +1,5 @@
+# Print words in reverse order ("I love Python" → "Python love I")
+s = input('Enter a string:')
+words = s.split()
+r = ' '.join(reversed(words))
+print(r)
