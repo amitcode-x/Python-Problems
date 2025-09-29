@@ -35,4 +35,6 @@ class Student:
 
 amit=Student('amit',22,'python',Banglore)
 amit.student_details()
+
+
         
