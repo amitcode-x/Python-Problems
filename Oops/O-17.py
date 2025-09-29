@@ -33,7 +33,7 @@ class Student:
 
         #object inside of the class
             
-        ACO= Address(c,s,co)  
+        ACO= Address(c,s,co)   
         self.Address=ACO
          
     def student_details(self):
