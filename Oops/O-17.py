@@ -35,7 +35,7 @@ class Student:
         
         ACO= Address(c,s,co)
         self.Address=ACO
-        
+         
     def student_details(self):
         print(f'student name is : {self.stname} ')
         print(f'student Age is : {self.sAge} ')
