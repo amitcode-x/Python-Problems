@@ -25,7 +25,7 @@ class Student:
     
     def __init__(self,sN,sAge,sC):
         self.stname=sN
-        self.sAge=sAge
+        self.sAge=sAge 
         self.sClass=sC
         c = input('enter city name :')   
         s= input('Enter state name :')   
