@@ -40,7 +40,7 @@ class Student:
         print(f'student name is : {self.stname} ')
         print(f'student Age is : {self.sAge} ')
         print(f'student Class is : {self.sClass} ')
-        self.Address.display_add()
+        self.Address.display_add() 
 
 amit=Student('amit',22,'python')
 amit.student_details()
