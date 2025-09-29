@@ -32,7 +32,7 @@ class Student:
         co= input('Enter country name: ')  
 
         #object inside of the class 
-            
+             
         ACO= Address(c,s,co)    
         self.Address=ACO  
          
