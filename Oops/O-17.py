@@ -27,7 +27,7 @@ class Student:
         self.stname=sN
         self.sAge=sAge
         self.sClass=sC
-        c = input('enter city name :')
+        c = input('enter city name :') 
         s= input('Enter state name :')  
         co= input('Enter country name: ')
 
