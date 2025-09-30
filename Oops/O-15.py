@@ -34,7 +34,7 @@ class Bank:
         new_roi= cls.get_int_value()
         cls.bank_roi=new_roi
         print('roi is modified')
-                    
+                     
                        
                   
             
