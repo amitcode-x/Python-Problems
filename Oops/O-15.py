@@ -37,7 +37,7 @@ class Bank:
         
                
                
-           
+            
                          
 
 amit=Bank('amit',3467,10000)
