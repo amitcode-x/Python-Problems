@@ -35,9 +35,9 @@ class Bank:
         cls.bank_roi=new_roi
         print('roi is modified')
         
-            
+             
                
-        
+         
                          
 
 amit=Bank('amit',3467,10000)
