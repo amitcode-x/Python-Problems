@@ -38,7 +38,7 @@ class Bank:
                           
                    
             
-                         
+                          
 
 amit=Bank('amit',3467,10000)
 sumit= Bank('Sumit',456,1500)
