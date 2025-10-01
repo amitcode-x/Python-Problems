@@ -71,14 +71,37 @@ class Library:
         print(f'user {self.user_name} object is deleted')
     def __str__(self):
         pass
-    
+  
+class Bank:
+    bank_name='sbi'
+    banck_branch= 'main branch'
+    bank_roi = 5
+    def _init__(self,ac,n,b):
+        self.account=ac
+        self.name=n
+        self.balance=b
+    def customer_details(self):
+        print(f"Account Number: {self.account}")
+        print(f"Customer Name: {self.name}")
+        print(f"Account Balance: {self.balance}")
+    def widthdraw(self):
+        amount=int(input("Enter the amount to withdraw:"))
+        if amount>self.balance:
+            print("Insufficient balance")
+        else:
+            self.balance-=amount
+            print(f"Withdrawn amount:{amount}")
+            print(f"Remaining balance:{self.balance}")
+        print("Thank you for banking with us!",self.balance)
+         
+        
 
 # Users
 alice = Library('Alice', 101)
 bob = Library('Bob', 102)
 
 # Example interactions
-alice.show_user_details()
+alice.show_user_details() 
 alice.borrow_book()
 alice.borrow_book()
 alice.show_user_details()
