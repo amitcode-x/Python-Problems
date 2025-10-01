@@ -2,4 +2,4 @@
 s = input('Enter a string:')
 words = s.split()
 r = ' '.join(reversed(words))
-print(r)                     
+print(r)                      
