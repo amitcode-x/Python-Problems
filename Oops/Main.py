@@ -275,7 +275,7 @@ class HeartDrawingApp:
         self.pause_btn.config(state=tk.DISABLED)
         self.status_label.config(text="Paused")
     
-    def reset_drawing(self):
+    def reset_drawing(self): 
         """Reset drawing"""   
         self.is_drawing = False 
         self.progress = 0  
