@@ -277,7 +277,7 @@ class HeartDrawingApp:
     
     def reset_drawing(self):
         """Reset drawing"""
-        self.is_drawing = False
+        self.is_drawing = False 
         self.progress = 0
         self.canvas.delete("all") 
         self.progress_bar['value'] = 0
