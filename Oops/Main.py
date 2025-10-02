@@ -280,7 +280,7 @@ class HeartDrawingApp:
         self.is_drawing = False 
         self.progress = 0  
         self.canvas.delete("all")   
-        self.progress_bar['value'] = 0  
+        self.progress_bar['value'] = 0   
         self.start_btn.config(state=tk.NORMAL)
         self.pause_btn.config(state=tk.DISABLED)
         self.status_label.config(text="Ready to draw!")
