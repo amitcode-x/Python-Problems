@@ -276,7 +276,7 @@ class HeartDrawingApp:
         self.status_label.config(text="Paused")
     
     def reset_drawing(self):
-        """Reset drawing"""  
+        """Reset drawing"""   
         self.is_drawing = False 
         self.progress = 0 
         self.canvas.delete("all")   
