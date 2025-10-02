@@ -286,7 +286,7 @@ class HeartDrawingApp:
         self.status_label.config(text="Ready to draw!")
     
     def update_speed(self, value):
-        """Update drawing speed"""
+        """Update drawing speed""" 
         self.speed = float(value)
     
     def update_width(self, value):
