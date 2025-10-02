@@ -290,7 +290,7 @@ class HeartDrawingApp:
         self.speed = float(value)    
        
     def update_width(self, value): 
-        """Update line width""" 
+        """Update line width"""  
         self.line_width = float(value)
 
 # Main application 
