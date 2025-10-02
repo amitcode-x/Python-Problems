@@ -292,7 +292,7 @@ class HeartDrawingApp:
     def update_width(self, value): 
         """Update line width"""  
         self.line_width = float(value)
-
+ 
 # Main application 
 if __name__ == "__main__":
     root = tk.Tk()
