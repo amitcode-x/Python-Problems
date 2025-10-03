@@ -9,4 +9,4 @@ print(list(map(lambda a: int(a),input("Enter a num: ").split())))
 
  
           
-         
+          
