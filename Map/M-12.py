@@ -5,7 +5,7 @@
 # o/p : [12,45,67,34,66]
    
 
-print(list(map(lambda a: int(a),input("Enter a num: ").split())))   
+print(list(map(lambda a: int(a),input("Enter a num: ").split())))    
 
  
           
