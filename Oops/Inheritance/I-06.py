@@ -17,7 +17,7 @@ class Bank_v1:
         return iv     
     def withdraw(self):    
         print('Enter the withdraw amounts :')   
-        amount = self.get_int_value()   
+        amount = self.get_int_value() 
         if amount <= self.cbalance:
             self.cbalance -=amount
             print('withdraw is successful')
