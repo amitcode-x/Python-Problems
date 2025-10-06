@@ -15,7 +15,7 @@ class Bank_v1:
     def get_int_value(): 
         iv = int(input())  
         return iv 
-    def withdraw(self): 
+    def withdraw(self):  
         print('Enter the withdraw amounts :')
         amount = self.get_int_value()
         if amount <= self.cbalance:
