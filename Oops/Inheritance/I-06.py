@@ -5,7 +5,7 @@ class Bank_v1:
     bank_roi = 5
     def __init__(self,cn,ca,cb):
         self.cname=cn  
-        self.caccount=ca 
+        self.caccount=ca  
         self.cbalance=cb    
     def customer_details(self): 
         print(f'name of customer is {self.cname}')
