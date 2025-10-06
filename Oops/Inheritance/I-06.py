@@ -4,7 +4,7 @@ class Bank_v1:
     bank_branch = 'marathahlli'
     bank_roi = 5
     def __init__(self,cn,ca,cb):
-        self.cname=cn
+        self.cname=cn 
         self.caccount=ca
         self.cbalance=cb
     def customer_details(self):
