@@ -7,7 +7,7 @@ class Bank_v1:
         self.cname=cn  
         self.caccount=ca 
         self.cbalance=cb   
-    def customer_details(self):
+    def customer_details(self): 
         print(f'name of customer is {self.cname}')
         print(f'account of customer is {self.caccount}')
         print(f'balance of customer is {self.cbalance}')
