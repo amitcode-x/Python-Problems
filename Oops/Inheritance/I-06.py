@@ -19,9 +19,9 @@ class Bank_v1:
         print('Enter the withdraw amounts :')   
         amount = self.get_int_value() 
         if amount <= self.cbalance:
-            self.cbalance -=amount
+            self.cbalance -=amount 
             print('withdraw is successful')
-        else: 
+        else:  
             print('insufficient balance')
         print('avaliable balance is ',self.cbalance)
 
