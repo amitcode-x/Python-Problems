@@ -21,7 +21,7 @@ class Bank_v1:
         if amount <= self.cbalance:
             self.cbalance -=amount
             print('withdraw is successful')
-        else:
+        else: 
             print('insufficient balance')
         print('avaliable balance is ',self.cbalance)
 
