@@ -13,7 +13,7 @@ class Bank_v1:
         print(f'balance of customer is {self.cbalance}')
     @staticmethod
     def get_int_value():
-        iv = int(input())
+        iv = int(input()) 
         return iv 
     def withdraw(self):
         print('Enter the withdraw amounts :')
