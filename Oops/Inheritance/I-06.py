@@ -11,7 +11,7 @@ class Bank_v1:
         print(f'name of customer is {self.cname}')
         print(f'account of customer is {self.caccount}')
         print(f'balance of customer is {self.cbalance}')
-    @staticmethod 
+    @staticmethod  
     def get_int_value():   
         iv = int(input())  
         return iv   
