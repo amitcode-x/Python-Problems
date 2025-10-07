@@ -46,7 +46,7 @@ class Bank_v2(Bank_v1):
     def __init__(self,cn,ca,cb,cp,cm):
         super().__init__(cn,ca,cb)  
         self.cpin=cp 
-        self.cmobile=cm    
+        self.cmobile=cm     
     def customer_details(self):
         super().customer_details()
         print(f'mobile num of customer {self.cmobile}')
