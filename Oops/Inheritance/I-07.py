@@ -38,7 +38,7 @@ class Bank_v1:
         cls.bank_roi = nroi
         print('roi is changed')
          
-         
+          
 class Bank_v2(Bank_v1):     
     bank_branch='banglore'        
     bank_ifsc=123456            
