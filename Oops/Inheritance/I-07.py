@@ -51,7 +51,7 @@ class Bank_v2(Bank_v1):
         super().customer_details()
         print(f'mobile num of customer {self.cmobile}')
     def withdraw(self):
-        print('Enter the pin ')
+        print('Enter the pin ') 
         pin = self.get_int_value()
         if pin == self.cpin: 
             print('PIN verified successfully!')
