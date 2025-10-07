@@ -42,7 +42,7 @@ class Bank_v1:
 class Bank_v2(Bank_v1):  
     bank_branch='banglore' 
     bank_ifsc=123456 
- 
+  
     def __init__(self,cn,ca,cb,cp,cm):
         super().__init__(cn,ca,cb)  
         self.cpin=cp 
