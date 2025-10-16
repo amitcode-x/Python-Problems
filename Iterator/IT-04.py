@@ -1,6 +1,6 @@
 
 #create a cutome iterator to fetch fibonocci series of first N numbers
-      
+       
   
 class FibonacciIterator:
     def __init__(self, n): 
