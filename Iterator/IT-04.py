@@ -5,7 +5,7 @@
 class FibonacciIterator:
     def __init__(self, n):
         self.n = n     
-        self.count = 0 
+        self.count = 0  
         self.a = 0      
         self.b = 1      
     def __iter__(self):
