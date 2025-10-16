@@ -13,7 +13,7 @@ class FibonacciIterator:
         self.count = 0   
         self.a, self.b = 0, 1  
         return self
-          
+           
     def __next__(self):
         if self.count >= self.n:
             raise StopIteration  
