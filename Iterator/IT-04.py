@@ -9,7 +9,7 @@ class FibonacciIterator:
         self.a = 0      
         self.b = 1      
     def __iter__(self):
-            
+             
         self.count = 0   
         self.a, self.b = 0, 1  
         return self
