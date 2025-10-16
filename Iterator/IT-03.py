@@ -19,7 +19,7 @@ class RangeCube:
             raise StopIteration
 
 
-CIO =  RangeCube(1,3)
+CIO =  RangeCube(1,3) 
 
 CIO.__iter__()
 print(CIO.__next__())
