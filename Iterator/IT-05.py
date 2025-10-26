@@ -24,3 +24,4 @@ class FeboIterator():
 FIO = FeboIterator(20,22,10)
 for i in FIO:
     print(i)
+    
