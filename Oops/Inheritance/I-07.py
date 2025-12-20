@@ -23,7 +23,7 @@ class Bank_v1:
         else:
             print('insufficient balance')
         print('avaliable balance is ',self.cbalance)
-
+ 
         
     @classmethod
     def bank_details(cls):
