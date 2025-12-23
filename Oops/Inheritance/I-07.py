@@ -25,7 +25,7 @@ class Bank_v1:
         print('avaliable balance is ',self.cbalance)
  
         
-    @classmethod
+    @classmethod 
     def bank_details(cls):
         print(f'name of bank is {cls.bank_name}')
         print(f'branch of bank is {cls.bank_branch}')
