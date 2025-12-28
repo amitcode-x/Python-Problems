@@ -36,7 +36,7 @@ class Bank_v1:
         print('Enter the new Roi ')
         nroi = cls.get_int_value()
         cls.bank_roi = nroi
-        print('roi is changed')
+        print('roi is changed')  
               
               
 class Bank_v2(Bank_v1):     
