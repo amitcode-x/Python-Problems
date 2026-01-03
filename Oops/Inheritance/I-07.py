@@ -24,7 +24,7 @@ class Bank_v1:
             print('insufficient balance')
         print('avaliable balance is ',self.cbalance)
  
-                 
+                  
     @classmethod 
     def bank_details(cls):
         print(f'name of bank is {cls.bank_name}')
