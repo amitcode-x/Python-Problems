@@ -29,7 +29,7 @@ class Bank_v1:
     def bank_details(cls):
         print(f'name of bank is {cls.bank_name}')
         print(f'branch of bank is {cls.bank_branch}')
-        print(f'roi of bank is {cls.bank_roi}')
+        print(f'roi of bank is {cls.bank_roi}')   
 
     @classmethod
     def modify_roi(cls):       
