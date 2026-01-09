@@ -31,7 +31,7 @@ class Bank_v1:
         print(f'branch of bank is {cls.bank_branch}')
         print(f'roi of bank is {cls.bank_roi}')   
 
-    @classmethod
+    @classmethod 
     def modify_roi(cls):       
         print('Enter the new Roi ') 
         nroi = cls.get_int_value()
