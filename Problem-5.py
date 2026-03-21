@@ -9,4 +9,4 @@ if num1 > num2:
 elif num2>num1:
     print(f"{num2} num2 is grater ")
 else:
-    print('both are equal')
+    print('both are equal ')
