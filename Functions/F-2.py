@@ -6,6 +6,8 @@ def add(a,b):
     print("print b value is ",b)
     print(a+b)
 
+
+
 add(2,3)
 add(1,2,3)
 add()
