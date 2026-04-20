@@ -2,3 +2,4 @@
 
 summ = lambda a,b : a+b
 print(summ(1,2))
+ 
