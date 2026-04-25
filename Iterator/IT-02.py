@@ -17,7 +17,7 @@ class RangeIterator:
                 res = self.i
                 self.i +=self.up
                 return res
-            raise StopIteration
+            raise StopIteration 
 
 
 RIO =  RangeIterator(1,3)
