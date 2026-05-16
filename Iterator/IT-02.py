@@ -8,7 +8,7 @@ class RangeIterator:
         self.el=el
         self.up = up
     def __iter__(self):
-        print('__iter__')
+        print('__iter__') 
         self.i=self.sl
         return self
     def __next__(self):
