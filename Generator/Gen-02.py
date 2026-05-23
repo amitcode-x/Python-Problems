@@ -10,6 +10,6 @@ fgo = FiboGen(2,3,10)
 for i in fgo:
     print(i)
 
-
+ 
 
 
