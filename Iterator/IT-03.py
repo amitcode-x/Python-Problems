@@ -18,7 +18,7 @@ class RangeCube:
                 return res
             raise StopIteration
 
-
+ 
 CIO =  RangeCube(1,3) 
 
 CIO.__iter__()
