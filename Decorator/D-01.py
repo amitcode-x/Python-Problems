@@ -2,7 +2,7 @@
 
 
 def outer(arg):
-    print('first line of outer')
+    print('first line of outer') 
     print(arg)
     def inner():
         print('First line of inner')
